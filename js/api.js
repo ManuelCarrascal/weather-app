@@ -2,7 +2,7 @@ import { result } from "./form.js";
 import { showErrorAlert } from "./alert.js";
 
 export function consultApi(city, country) {
-  const appId = "3688caa94b513bfabea782161877dbee";
+  const appId = "f42b3dfcedf534334ee97966247572d7";
   const urlApi = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${appId}`;
 
   fetch(urlApi).then((response) =>
